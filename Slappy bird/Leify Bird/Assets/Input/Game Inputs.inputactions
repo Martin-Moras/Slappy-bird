@@ -1,0 +1,45 @@
+{
+    "name": "Game Inputs",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "d924f230-a3ac-4057-b2df-ea67d97bf9b1",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "6c26cd37-b4ec-4686-908b-d4ad80ee9b1c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Space",
+                    "id": "1d9d286b-451f-4b13-8c79-aa9b6487ff3c",
+                    "path": "1DAxis(minValue=0)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "0ad6de1d-2a32-420a-88d0-d49ff68b0fff",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
